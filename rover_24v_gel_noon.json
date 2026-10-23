@@ -1,0 +1,23 @@
+{
+  "battery_percentage": 88,
+  "battery_voltage": 28.4,
+  "battery_current": 18.5,
+  "battery_temperature": 28,
+  "controller_temperature": 41,
+  "load_status": "on",
+  "load_voltage": 28.4,
+  "load_current": 2.5,
+  "load_power": 71,
+  "pv_voltage": 42.6,
+  "pv_current": 12.8,
+  "pv_power": 545,
+  "max_charging_power_today": 580,
+  "max_discharging_power_today": 95,
+  "charging_amp_hours_today": 64,
+  "discharging_amp_hours_today": 12,
+  "power_generation_today": 1680,
+  "power_consumption_today": 310,
+  "power_generation_total": 452800,
+  "charging_status": "mppt",
+  "battery_type": "gel"
+}

@@ -1,0 +1,31 @@
+# librenogybt-emulator (renogybt-emulator)
+# Copyright (c) 2026 Mohammad Hafiz bin Ismail (mypapit@gmail.com) - http://mypapit.net
+# Licensed under the GNU General Public License version 3 (GNU/GPL v3).
+# Inspired by Cyril Sebastian's renogy-bt (https://github.com/cyrils/renogy-bt)
+# and designed to work seamlessly with it and other compatible Renogy BLE clients.
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "librenogybt-emulator"
+version = "0.1.0"
+description = "Renogy BT-1/BT-2 BLE GATT and Modbus RTU emulator library and CLI, compatible with renogy-bt and other Renogy BLE clients"
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [
+    { name = "Mohammad Hafiz bin Ismail", email = "mypapit@gmail.com" }
+]
+requires-python = ">=3.8"
+dependencies = [
+    "dbus-fast>=1.83.0",
+    "bleak",
+]
+
+[project.scripts]
+renogybt-emulator = "librenogybt_emulator.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["librenogybt_emulator*"]
