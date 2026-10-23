@@ -8,6 +8,10 @@ It registers the exact BLE GATT Services (`0000ffd0-...`, `0000fff0-...`), GATT 
 
 ---
 
+## Notice
+This is not an official Renogy product nor endorsed by Renogy.
+
+
 ## Objectives & Verification Status
 
 ### Objectives
